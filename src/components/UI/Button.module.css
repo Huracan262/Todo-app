@@ -1,0 +1,31 @@
+.button {
+  height: 25px;
+  padding: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+
+  font-weight: 700;
+  color: white;
+
+  border-radius: 5px;
+  border: none;
+  background-color: transparent;
+
+  opacity: 0.5;
+  transition: transform 50ms ease;
+}
+
+.button:hover {
+  transform: scale(1.01);
+  cursor: pointer;
+}
+
+.button:active {
+  transform: scale(1);
+}
+
+.button:disabled {
+  cursor: default;
+  opacity: 0.2;
+}

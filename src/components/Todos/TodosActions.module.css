@@ -1,0 +1,7 @@
+.buttons {
+  margin-left: auto;
+  margin-right: 22px;
+  margin-bottom: 5px;
+  display: flex;
+  gap: 7px;
+}

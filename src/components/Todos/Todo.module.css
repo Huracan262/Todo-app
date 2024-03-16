@@ -1,0 +1,84 @@
+.todoBlock {
+  width: 387px;
+  padding: 5px 10px;
+
+  border-radius: 5px;
+  background-color: darkslategrey;
+}
+
+.todoBlock:nth-child(odd) {
+  background-color: #3c5d5d;
+}
+
+.isCompleted {
+  text-decoration: line-through;
+  background-color: dimgrey !important;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+
+
+  color: lightgray;
+
+  border-bottom: 1px solid dimgrey;
+}
+
+.titleText {
+  margin: 0;
+
+  padding: 0;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.buttons {
+  margin-left: auto;
+  display: flex;
+}
+
+.button {
+  border: none;
+  background: none;
+  color: inherit;
+
+  opacity: 0.5;
+}
+
+.button:hover {
+  opacity: 1;
+  transform: scale(1.1);
+
+  cursor: pointer;
+}
+
+.button:active {
+  transform: scale(1);
+}
+
+.iconNotepad {
+  margin-right: 5px;
+  font-size: 14px;
+
+  opacity: 0.5;
+}
+
+.iconCheck {
+  margin-right: 5px;
+  font-size: 18px;
+}
+
+.iconCheck:hover {
+  color: lightgreen;
+}
+
+.isCompleted .iconCheck {
+  color: lightgreen;
+}
+
+
+.iconDelete:hover {
+  color: tomato;
+}
